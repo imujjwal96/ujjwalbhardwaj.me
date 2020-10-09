@@ -25,11 +25,29 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Contentful starter',
+    title: 'Ujjwal Bhardwaj',
+    author: 'Ujjwal Bhardwaj',
+    description: 'Personal blog by Ujjwal Bhardwaj',
+    siteUrl: 'https://ujjwalbhardwaj.me',
+    social: {
+      twitter: '@imujjwal96',
+    },
   },
-  pathPrefix: '/gatsby-contentful-starter',
+  pathPrefix: '/',
   plugins: [
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              inlineCodeMarker: null,
+            },
+          },
+        ],
+      },
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
