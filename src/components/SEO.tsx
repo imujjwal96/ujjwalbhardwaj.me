@@ -24,8 +24,6 @@ function SEO({ meta, image, title, description, slug, lang = 'en' }) {
     <StaticQuery
       query={query}
       render={data => {
-        console.log("Ujjwal");
-        console.log(data)
         const { siteMetadata } = data.site;
         const metaDescription = description || siteMetadata.description;
         const metaImage = image ? `${siteMetadata.siteUrl}/${image}` : null;

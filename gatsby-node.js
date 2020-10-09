@@ -25,7 +25,6 @@ exports.createPages = ({ graphql, actions }) => {
           `
       ).then(result => {
         if (result.errors) {
-          console.log(result.errors)
           reject(result.errors)
         }
 
@@ -44,8 +43,6 @@ exports.createPages = ({ graphql, actions }) => {
         const numPages = Math.ceil(posts.length / postsPerPage);
 
         Array.from({ length: numPages }).forEach((_, i) => {
-          console.log("Hello");
-          console.log(i);
           createPage({
             path: i === 0 ? `/posts` : `/posts/page=${i + 1}`,
             component: postsList,

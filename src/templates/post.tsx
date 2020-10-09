@@ -14,10 +14,6 @@ class PostPage extends React.Component {
   render() {
     const post = get(this.props, 'data.contentfulPost')
     post.href = this.props.location.href
-    console.log("Bhard");
-    console.log(post);
-    console.log(post.title.title);
-    console.log(post.body.childMarkdownRemark.excerpt);
     return (
       <LayoutV2>
         <SEO
