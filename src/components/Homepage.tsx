@@ -31,6 +31,7 @@ class Homepage extends React.Component {
     <footer className="hidden-md-down">© Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/personal-blog" target="_blank">code</a>)</footer>
       </Col>
     </>
+
     );
   }
 }

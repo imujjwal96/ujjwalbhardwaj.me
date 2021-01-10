@@ -1,10 +1,7 @@
 import * as React from 'react'
 import HeaderV2 from './HeaderV2'
 import Footer from './Footer'
-import LeftSide from './LeftSide'
 import Container from "react-bootstrap/esm/Container"
-import { Col } from "react-bootstrap"
-import Homepage from "./Homepage"
 
 class LayoutV2 extends React.Component {
   render() {
@@ -18,7 +15,7 @@ class LayoutV2 extends React.Component {
 
     return (
       <>
-        {/*<HeaderV2 />*/}
+        <HeaderV2 />
         <Container fluid={"md"} className="container-fluid">
           {children}
         </Container>

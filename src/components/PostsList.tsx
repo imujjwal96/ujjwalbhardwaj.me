@@ -18,10 +18,12 @@ class PostsList extends React.Component<posts, {}> {
     let items = [];
     items.push(
       <Pagination.First
+        key={-3}
         href={"/posts"}
         disabled={this.props.isFirst}
       />,
       <Pagination.Prev
+        key={-4}
         href={this.props.currentPage === 2 ? "/posts" : "/posts/page=" + (this.props.currentPage - 1)}
         disabled={this.props.isFirst}
       />
@@ -39,10 +41,12 @@ class PostsList extends React.Component<posts, {}> {
     }
     items.push(
       <Pagination.Next
+        key={-1}
         href={"/posts/page=" + (this.props.currentPage + 1)}
         disabled={this.props.isLast}
       />,
       <Pagination.Last
+        key={-2}
         href={"/posts/page=" + this.props.numPages}
         disabled={this.props.currentPage === this.props.numPages}
       />
@@ -53,8 +57,10 @@ class PostsList extends React.Component<posts, {}> {
         <LeftSide />
         <Col md={8} className="right-side" style={{textAlign: "justify"}}>
           {this.props.posts.map(({ node }) => {
+
             return (
               <BlogPostElement
+                key={Math.floor(Math.random()*100)}
                 title = {node.title.title}
                 author = {node.author[0].name}
                 date = {node.date}
