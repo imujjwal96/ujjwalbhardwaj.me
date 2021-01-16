@@ -28,7 +28,7 @@ class Homepage extends React.Component {
       my previous employers.
     </p>
     <p>I'll happily provide consultation on the architecture of AWS services (mainly around BigData and Machine Learning), speak at your event, or provide mentorship for your open source projects. Feel free to email me with details!</p>
-    <footer className="hidden-md-down">© Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/personal-blog" target="_blank">code</a>)</footer>
+    <footer className="hidden-md-down">© Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)</footer>
       </Col>
     </>
 
