@@ -23,11 +23,10 @@ class Post extends React.Component<post, {}> {
             date={post.date}
             body={post.body.childMarkdownRemark.html}
           />
-          <h2>{post.href}</h2>
           <FacebookProvider appId="353865691635127">
-            <Comments href={post.href} width={`100%`} />
+            <Comments href={"http://ujjwalbhardwaj.me/post/" + post.slug} width={`100%`} />
           </FacebookProvider>
-          <footer className="hidden-md-down">© Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)</footer>
+          <footer className="hidden-md-down">© 2021 Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)</footer>
         </Col>
       </>
     );
