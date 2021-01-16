@@ -1,7 +1,4 @@
 import * as React from 'react'
-import { Button, Form, FormControl, Nav, Navbar, NavbarBrand, NavDropdown, NavLink } from 'react-bootstrap'
-import NavbarToggle from 'react-bootstrap/NavbarToggle'
-import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
 
 class HeaderV2 extends React.Component {
   render() {
@@ -15,6 +12,5 @@ class HeaderV2 extends React.Component {
     );
   }
 }
-
 
 export default HeaderV2

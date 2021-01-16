@@ -36,6 +36,16 @@ module.exports = {
   pathPrefix: '/',
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-87329450-1',
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0
+      }
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
@@ -54,6 +64,18 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: contentfulConfig,
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Ujjwal Bhardwaj`,
+        short_name: `Ujjwal Bhardwaj`,
+        start_url: `/`,
+        background_color: `#069`,
+        theme_color: `#fff`,
+        display: `standalone`,
+        icon: `src/assets/images/favicon.png`,
+      },
     },
   ],
 }
