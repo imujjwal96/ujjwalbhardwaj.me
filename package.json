@@ -29,6 +29,7 @@
     "react-facebook": "^8.1.4",
     "react-helmet": "^6.0.0",
     "react-syntax-highlighter": "^12.2.1",
+    "react-twitter-embed": "^3.0.3",
     "sharp": "^0.25.2"
   },
   "devDependencies": {

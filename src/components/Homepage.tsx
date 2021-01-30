@@ -1,6 +1,7 @@
 import * as React from 'react'
 import LeftSide from "./LeftSide"
 import { Col } from "react-bootstrap"
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 class Homepage extends React.Component {
   render() {
@@ -28,6 +29,11 @@ class Homepage extends React.Component {
       my previous employers.
     </p>
     <p>I'll happily provide consultation on the architecture of AWS services (mainly around BigData and Machine Learning), speak at your event, or provide mentorship for your open source projects. Feel free to email me with details!</p>
+        <TwitterTimelineEmbed
+          sourceType="profile"
+          screenName="imujjwal96"
+          options={{height: 400}}
+        />
     <footer className="hidden-md-down">© 2021 Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)</footer>
       </Col>
     </>
