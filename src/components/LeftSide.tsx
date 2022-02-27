@@ -12,7 +12,7 @@ class LeftSide extends React.Component {
           <a href={'/'}>
             <img id="logo" src={require('../assets/images/logo2.png')} title="Ujjwal Bhardwaj" />
           </a>
-          <p id="tagline">Software Engineer | Technical Evangelist</p>
+          <p id="tagline">Software Development Engineer</p>
           <p>
             <a className="links" href="/posts" target="_blank">Blog Posts</a>
             <a className="links" href="https://drive.google.com/file/d/1BWL_YpkZHkEAVEj9rhHIiLMhC820FBs8/view?usp=sharing" target="_blank">Resume</a>
