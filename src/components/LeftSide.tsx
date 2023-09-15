@@ -15,13 +15,12 @@ class LeftSide extends React.Component {
           <p id="tagline">Software Development Engineer</p>
           <p>
             <a className="links" href="/posts" target="_blank">Blog Posts</a>
-            <a className="links" href="https://drive.google.com/file/d/1BWL_YpkZHkEAVEj9rhHIiLMhC820FBs8/view?usp=sharing" target="_blank">Resume</a>
+            <a className="links" href="https://drive.google.com/file/d/1ae-zyMNwK3T4uHdfhhLmOeWKyDzkb0_U/view" target="_blank">Resume</a>
           </p>
           <p className="socials">
             <a href="mailto:ujjwalb1996@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
             <a href="https://twitter.com/imujjwal96" target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
             <a href="https://in.linkedin.com/in/ujjwal-bhardwaj-b6b46a80" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-            <a href="https://www.instagram.com/ujjwalbhardwaj96" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
             <a href="https://github.com/imujjwal96" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
             <a href="https://stackoverflow.com/users/4592183/ujjwal-bhardwaj" target="_blank"><FontAwesomeIcon icon={faStackOverflow} /></a>
           </p>
