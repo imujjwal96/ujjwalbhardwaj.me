@@ -23,7 +23,7 @@ class Footer extends React.Component {
             <a href="https://stackoverflow.com/users/4592183/ujjwal-bhardwaj" target="_blank"><FontAwesomeIcon icon={faStackOverflow} /></a>
           </p>
           <hr />
-          <div className="footer-copyright" style={{ color: "white" }}>© 2021 Ujjwal Bhardwaj. All Rights Reserved.
+          <div className="footer-copyright" style={{ color: "white" }}>© 2024 Ujjwal Bhardwaj. All Rights Reserved.
             (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)
           </div>
         </div>
