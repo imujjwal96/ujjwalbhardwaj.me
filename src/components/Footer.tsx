@@ -10,7 +10,7 @@ class Footer extends React.Component {
       <footer className="bg-inverse hidden-md-up navbar-dark" style={{ padding: "20px" }}>
       <div className="container text-center">
         <div className="row">
-          <img src={require("../assets/images/aws_batches.png")} title="Ujjwal Bhardwaj" style={{ width: "70%" }} />
+          <img src={require("../assets/images/aws_batches.png").default} title="Ujjwal Bhardwaj" style={{ width: "70%" }} />
           <hr />
         </div>
         <div className="row">

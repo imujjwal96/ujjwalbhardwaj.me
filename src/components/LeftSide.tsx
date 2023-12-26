@@ -10,7 +10,7 @@ class LeftSide extends React.Component {
       <Col md={4} className="left-side hidden-sm-down">
         <div className="div">
           <a href={'/'}>
-            <img id="logo" src={require('../assets/images/logo2.png')} title="Ujjwal Bhardwaj" />
+            <img id="logo" src={require('../assets/images/logo2.png').default} title="Ujjwal Bhardwaj" />
           </a>
           <p id="tagline">Software Development Engineer</p>
           <p>
@@ -25,10 +25,10 @@ class LeftSide extends React.Component {
             <a href="https://stackoverflow.com/users/4592183/ujjwal-bhardwaj" target="_blank"><FontAwesomeIcon icon={faStackOverflow} /></a>
           </p>
           <p className="certificates">
-            <img className="logoAWS" src={require("../assets/images/aws_logo_white.png")} />
-            <img className="logoAWS" src={require("../assets/images/aws_saa_white.png")} />
-            <img className="logoAWS" src={require("../assets/images/aws_soa_white.png")} />
-            <img className="logoAWS" src={require("../assets/images/aws_da_white.png")} style={{ width: "55.032%" }}/>
+            <img className="logoAWS" src={require("../assets/images/aws_logo_white.png").default} />
+            <img className="logoAWS" src={require("../assets/images/aws_saa_white.png").default} />
+            <img className="logoAWS" src={require("../assets/images/aws_soa_white.png").default} />
+            <img className="logoAWS" src={require("../assets/images/aws_da_white.png").default} style={{ width: "55.032%" }}/>
           </p>
 
         </div>
