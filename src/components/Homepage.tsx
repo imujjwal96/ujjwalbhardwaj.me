@@ -25,7 +25,7 @@ class Homepage extends React.Component {
           screenName="imujjwal96"
           options={{height: 400}}
         />
-    <footer className="hidden-md-down">© 2022 Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)</footer>
+    <footer className="hidden-md-down">© 2024 Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)</footer>
       </Col>
     </>
 

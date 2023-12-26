@@ -72,7 +72,7 @@ class PostsList extends React.Component<posts, {}> {
 
           <div style={{textAlign: "center"}}><Pagination>{items}</Pagination></div>
           <footer className="hidden-md-down">
-            © 2022 Ujjwal Bhardwaj. All Rights Reserved.
+            © 2024 Ujjwal Bhardwaj. All Rights Reserved.
             (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)
           </footer>
         </Col>
