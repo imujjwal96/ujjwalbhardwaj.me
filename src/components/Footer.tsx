@@ -24,7 +24,6 @@ class Footer extends React.Component {
           </p>
           <hr />
           <div className="footer-copyright" style={{ color: "white" }}>© 2024 Ujjwal Bhardwaj. All Rights Reserved.
-            (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)
           </div>
         </div>
       </div>
