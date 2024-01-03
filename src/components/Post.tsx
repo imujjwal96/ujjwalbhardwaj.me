@@ -26,7 +26,7 @@ class Post extends React.Component<post, {}> {
           <FacebookProvider appId="353865691635127">
             <Comments href={"http://ujjwalbhardwaj.me/post/" + post.slug} width={`100%`} />
           </FacebookProvider>
-          <footer className="hidden-md-down">© 2024 Ujjwal Bhardwaj. All Rights Reserved. (Source&nbsp;<a href="https://github.com/imujjwal96/ujjwalbhardwaj.me" target="_blank">code</a>)</footer>
+          <footer className="hidden-md-down">© 2024 Ujjwal Bhardwaj. All Rights Reserved.</footer>
         </Col>
       </>
     );
