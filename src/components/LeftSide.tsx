@@ -15,7 +15,7 @@ class LeftSide extends React.Component {
           <p id="tagline">Software Development Engineer</p>
           <p>
             <a className="links" href="/posts" target="_blank">Blog Posts</a>
-            <a className="links" href="https://drive.google.com/file/d/1ae-zyMNwK3T4uHdfhhLmOeWKyDzkb0_U/view" target="_blank">Resume</a>
+            <a className="links" href="https://drive.google.com/file/d/1EAuo5AGSjV5MyMx-taCOp8KOyjkSDSOf/view?usp=sharing" target="_blank">Resume</a>
           </p>
           <p className="socials">
             <a href="mailto:ujjwalb1996@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} /></a>
