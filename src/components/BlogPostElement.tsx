@@ -40,9 +40,9 @@ class BlogPostElement extends React.Component<Post, {}> {
       <>
       <article className="blog-post">
         <div className="blog-title">
-          <h2>
+          <h1>
             {renderTitleLink()}
-          </h2>
+          </h1>
         </div>
         <div className="blog-post-meta" style={{fontWeight: "bold", textAlign: "center"}}>
           {this.props.date} by {this.props.author}
